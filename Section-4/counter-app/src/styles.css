@@ -1,0 +1,43 @@
+html,
+body {
+  background: rgb(3, 55, 77);
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  background: #000;
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 30px;
+  cursor: pointer;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset {
+  background: #000;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
